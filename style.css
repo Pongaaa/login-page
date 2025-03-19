@@ -1,0 +1,111 @@
+body {
+  font-family: arial;
+}
+
+.login-box {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+
+  background: linear-gradient(to top, rgba(44, 44, 44, 0.9), rgba(40, 40, 40, 0.98));
+  color: rgba(255, 255, 255, 0.5);
+  border: solid;
+  border-radius: 12px;
+  border-width: 30px;
+  border-color: rgb(70, 70, 70);
+  box-shadow: -1px -1px 5px rgb(0, 115, 255), 1px 1px 5px rgb(255, 0, 0);
+}
+
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center; 
+  margin-top: 48px;
+  margin-bottom: 24px;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.9);
+}
+i {
+  font-size: 24px;
+  color: rgb(255, 60, 100);
+  text-shadow: 1px 1px 4px rgb(255, 60, 100);
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+label {
+  margin-left: 10px;
+  margin-bottom: 2px;
+  display: block;
+}
+.text-box {
+  width: 230px;
+  height: 32px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 15px;
+  border: solid rgb(236, 236, 236);
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-size: 15px;
+}
+
+.sign-in-button {
+  width: 120px;
+  height: 32px;
+  background-color: rgb(122, 222, 255);
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  position: absolute;
+  left: 50%; 
+  transform: translate(-50%, 90%);
+  border: 0;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+.sign-in-button:hover {
+  background-color: rgb(82, 209, 251);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.forgot {
+  color: rgba(255, 255, 255, 0.9);
+}
+.sign-up:visited {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sign-up {
+  color: rgb(255, 60, 100);
+  text-decoration: none;
+}
+.sign-up:visited {
+  color: rgb(255, 60, 100);
+}
+
+/*.overlay { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); 
+  z-index: 0;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+*/
